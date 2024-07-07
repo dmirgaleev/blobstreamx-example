@@ -65,7 +65,7 @@ func verify() error {
 	defer ethClient.Close()
 
 	// use the BlobstreamX contract binding
-	wrapper, err := blobstreamxwrapper.NewBlobstreamX(ethcmn.HexToAddress("0x229970a338e983c48dd7b35bfdf444bb568851af"), ethClient)
+	wrapper, err := blobstreamxwrapper.NewBlobstreamX(ethcmn.HexToAddress("0x8354693274eAe91Bc11B4b8981a8aB26d85F4A66"), ethClient)
 	if err != nil {
 		return err
 	}
